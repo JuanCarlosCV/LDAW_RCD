@@ -14,8 +14,14 @@ class CreateComprasTable extends Migration
     public function up()
     {
         Schema::create('compras', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->timestamps();
+            $table->Increments('id_compras');
+            $table->integer('cantidad');
+            $table->double('monto');
+            $table->date('fecha');
+            $table->integer('id_boleto')->unsigned();
+            $table->integer('id_cliente')->unsigned();
+            $table->foreign('id_boleto')->references('id_boleto')->on('boletos');
+            $table->foreign('id_cliente')->references('id_cliente')->on('clientes');
         });
     }
 

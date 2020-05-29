@@ -14,8 +14,9 @@ class CreatePrivilegiosTable extends Migration
     public function up()
     {
         Schema::create('privilegios', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->timestamps();
+            $table->bigIncrements('id_privilegios');
+            $table->string('nombre',100);
+
         });
     }
 
