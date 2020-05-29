@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Prueba de Equipo LDAW 
+                    Prueba de Equipo LDAW 1
                 </div>
 
                 <div class="links">
