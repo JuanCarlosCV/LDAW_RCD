@@ -40,12 +40,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8e8f915-b10c-4bcf-b903-681499b52e6f" name="Default Changelist" comment="update_laravel">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_29_035113_create_posts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="f8e8f915-b10c-4bcf-b903-681499b52e6f" name="Default Changelist" comment="update_laravel" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,7 +209,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590722204924</updated>
       <workItem from="1590722209977" duration="910000" />
-      <workItem from="1590723134862" duration="1763000" />
+      <workItem from="1590723134862" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="update_laravel">
       <created>1590722917883</created>
@@ -237,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590723428075</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pruebas_migrations">
+      <created>1590725850774</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590725850774</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +262,8 @@
     <MESSAGE value="update_laravel" />
     <MESSAGE value="Cambios prueba" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="pruebas_migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="pruebas_migrations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590723058311">
