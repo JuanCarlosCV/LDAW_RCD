@@ -13,4 +13,10 @@
 
 Auth::routes();
 
+
 Route::get('/', 'HomeController@index')->name('home');
+
+Route::get('/usuarios', 'UserController@index');
+
+Route::get('/eventos', 'EventoController@index');
+Route::get('/eventos/create', 'EventoController@create');
