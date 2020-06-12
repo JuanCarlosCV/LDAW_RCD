@@ -16,15 +16,10 @@ class EventoController extends Controller
      */
     public function index()
     {
-        //$response = Http::get('http://127.0.0.1:8000/events');
 
         $response = Http::get('http://127.0.0.1:8080/api/events');
-
-// Get the response body
-      //  $response->body();
          $events = $response->json();
         //dd($jsonData);
-
         return view ('events',compact('events'));
     }
 
@@ -40,7 +35,7 @@ class EventoController extends Controller
 
 
 
-        return view('events.create');
+      //  return view('events.create');
         //
     }
 
@@ -52,7 +47,7 @@ class EventoController extends Controller
      */
     public function store(Request $request)
     {
-
+        /*
         $event = new Eventos([
             'nombre' => $request->get('nombre'),
             'descripcion' => $request->get('descripcion'),
@@ -61,6 +56,18 @@ class EventoController extends Controller
             'fecha' => $request->get('fecha'),
         ]);
         $event->save();
+        */
+
+        //dd($request);
+        $response = Http::post('http://127.0.0.1:8080/api/events', [
+            'nombre' => $request->get('nombre'),
+            'descripcion' => $request->get('descripcion'),
+            'siglas' => $request->get('siglas'),
+            'capacidad' => $request->get('capacidad'),
+            'fecha' => $request->get('fecha'),
+        ]);
+        $response->successful();
+       // dd($response->successful());
         return redirect('/eventos')->with('success', 'Evento Registrado!');
         //
     }

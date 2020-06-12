@@ -14,5 +14,5 @@ use Illuminate\Http\Request;
 */
 
 
-Route::apiResource('events','eventosapi');
+Route::apiResource('events','EventoController');
 
