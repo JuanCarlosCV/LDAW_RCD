@@ -18,5 +18,5 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/usuarios', 'UserController@index');
 
-Route::get('/eventos', 'EventoController@index');//llamar vista eventos
+Route::Resource('eventos', 'EventoController');//llamar vista eventos
 //Route::get('/eventos/create', 'EventoController@create');

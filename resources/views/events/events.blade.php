@@ -2,7 +2,7 @@
 
 @section('content')
 
-
+<div class="container">
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -55,8 +55,19 @@
         <h3 class="display-4" align="center">Eventos</h3>
         <table class="table">
             <div>
-                <a class="btn btn-primary" data-toggle="modal" href="" data-target="#myModal">Crear evento</a>
+                <a class="btn btn-primary float-right" data-toggle="modal" href="" data-target="#myModal">Crear evento</a>
             </div>
+
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+                <br />
+            @endif
             <thead>
     <tr>
         <th scope="col">ID</th>
@@ -77,65 +88,28 @@
             <td>{{$event['capacidad']}}</td>
             <td>{{$event['fecha']}}</td>
             <td>
-                <a href="" class="btn btn-primary"data-toggle="modal"  data-target="#myModaleditar{{ $event['id_evento'] }}">Edit</a>
+                <a href="{{ route('events.show',$event['id_evento']) }}"> <button class="btn btn-success" type="submit">View</button></a>
+                <a href="" class="btn btn-primary">Edit</a>
+                <a href="{{ route('events.show',$event['id_evento']) }}"><button class="btn btn-danger" type="submit">Delete</button></a>
             </td>
             <td>
-                <form action="" method="post">
-                    @csrf
-                    @method('DELETE')
-                    <button class="btn btn-danger" type="submit">Delete</button>
-                </form>
+
             </td>
         </tr>
-        <div class="modal fade" id="myModaleditar{{ $event['id_evento'] }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Editar un evento</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form method="post" action="">
-                            @method('PATCH')
-                            @csrf
-                            <div class="form-group">
-                                <label for="first_name">Nombre:</label>
-                                <input type="text" class="form-control" name="nombre" value="{{ $event['nombre'] }}" required/>
-                            </div>
-                            <div class="form-group">
-                                <label for="last_name">Descripcion:</label>
-                                <input type="text" class="form-control" name="descripcion" value="{{ $event['descripcion'] }}" required/>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email">Siglas:</label>
-                                <input type="text" class="form-control" name="siglas" value="{{ $event['siglas'] }}"required/>
-                            </div>
-                            <div class="form-group">
-                                <label for="city">Capacidad:</label>
-                                <input type="number" class="form-control" name="capacidad" value="{{ $event['capacidad'] }}"required/>
-                            </div>
-                            <div class="form-group">
-                                <label for="country">Fecha:</label>
-                                <input type="date" class="form-control" name="fecha" value="{{ $event['fecha'] }}"required/>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Guardar Cambios</button>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
 
     @endforeach
+
+
+
+
     </tbody>
 </table>
+
+
+
     </div>
+</div>
 </div>
 @endsection
