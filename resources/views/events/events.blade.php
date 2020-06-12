@@ -48,9 +48,17 @@
     </div>
 
 
+    <div class="col-sm-12">
 
+        @if(session()->get('success'))
+            <div class="alert alert-success">
+                {{ session()->get('success') }}
+            </div>
+        @endif
+    </div>
 
 <div class="row">
+
     <div class="col-sm-10">
         <h3 class="display-4" align="center">Eventos</h3>
         <table class="table">
@@ -76,6 +84,7 @@
         <th scope="col">Siglas</th>
         <th scope="col">Capacidad</th>
         <th scope="col">Fecha</th>
+        <th scope="col">Opciones</th>
     </tr>
     </thead>
     <tbody>
@@ -87,10 +96,11 @@
             <td>{{$event['siglas']}}</td>
             <td>{{$event['capacidad']}}</td>
             <td>{{$event['fecha']}}</td>
+
             <td>
                 <a href="{{ route('events.show',$event['id_evento']) }}"> <button class="btn btn-success" type="submit">View</button></a>
                 <a href="" class="btn btn-primary">Edit</a>
-                <a href="{{ route('events.show',$event['id_evento']) }}"><button class="btn btn-danger" type="submit">Delete</button></a>
+                <a href="{{ route('events.destroy',$event['id_evento']) }}"><button class="btn btn-danger" type="submit">Delete</button></a>
             </td>
             <td>
 

@@ -58,6 +58,7 @@ class EventoController extends Controller
         ]);
         $response->successful();
        // dd($response->successful());
+        alert()->message('Evento Registrado');
         return redirect('/eventos')->with('success', 'Evento Registrado!');
         //
     }

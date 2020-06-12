@@ -41,11 +41,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8e8f915-b10c-4bcf-b903-681499b52e6f" name="Default Changelist" comment="update_laravel">
+      <change beforePath="$PROJECT_DIR$/.idea/LDAW_RCD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LDAW_RCD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EventoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EventoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/eventosapi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/events.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/events.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/events/events.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/events/events.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +211,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/uxweb/sweet-alert" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cZ3HzUr4BBoMPrgAhvIIJsOqmX" />
@@ -227,6 +232,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel\LDAW_RCD\resources\views\events" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\laravel\LDAW_RCD\database\migrations" />
     </key>
@@ -263,7 +271,7 @@
       <workItem from="1591976746489" duration="177000" />
       <workItem from="1591976931947" duration="234000" />
       <workItem from="1591977174821" duration="221000" />
-      <workItem from="1591977404288" duration="5493000" />
+      <workItem from="1591977404288" duration="19730000" />
     </task>
     <task id="LOCAL-00001" summary="update_laravel">
       <created>1590722917883</created>
@@ -391,7 +399,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591980235672</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Agregar evento Api:post">
+      <created>1591983583028</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591983583029</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Caso de uso: Ver evento">
+      <created>1591994776277</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591994776277</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +451,9 @@
     <MESSAGE value="update json" />
     <MESSAGE value="Vista eventos:Api" />
     <MESSAGE value="Update laravel 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update laravel 7" />
+    <MESSAGE value="Agregar evento Api:post" />
+    <MESSAGE value="Caso de uso: Ver evento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caso de uso: Ver evento" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590723058311">
