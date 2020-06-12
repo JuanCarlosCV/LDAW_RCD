@@ -41,18 +41,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8e8f915-b10c-4bcf-b903-681499b52e6f" name="Default Changelist" comment="update_laravel">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LDAW_RCD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LDAW_RCD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EventoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EventoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/eventosapi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/eventosapi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/events.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/events.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
@@ -191,6 +203,15 @@
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/laravel/helpers" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cZ3HzUr4BBoMPrgAhvIIJsOqmX" />
@@ -207,7 +228,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api_ldaw" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -233,7 +254,15 @@
       <updated>1590722204924</updated>
       <workItem from="1590722209977" duration="910000" />
       <workItem from="1590723134862" duration="11107000" />
-      <workItem from="1590734952647" duration="467000" />
+      <workItem from="1590734952647" duration="534000" />
+      <workItem from="1591045604987" duration="2691000" />
+      <workItem from="1591729797867" duration="28851000" />
+      <workItem from="1591821084419" duration="5154000" />
+      <workItem from="1591880264276" duration="15355000" />
+      <workItem from="1591903935546" duration="1308000" />
+      <workItem from="1591905253389" duration="381000" />
+      <workItem from="1591905642290" duration="1464000" />
+      <workItem from="1591907599675" duration="1741000" />
     </task>
     <task id="LOCAL-00001" summary="update_laravel">
       <created>1590722917883</created>
@@ -284,7 +313,42 @@
       <option name="project" value="LOCAL" />
       <updated>1590733425598</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Probando auth_GUI">
+      <created>1590735473914</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590735473914</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update user">
+      <created>1591880413914</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591880413914</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Cambios en api Route service provider">
+      <created>1591880467622</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591880467622</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Caso de uso: Agregar Evento">
+      <created>1591880690504</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591880690504</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Vista Home">
+      <created>1591880725045</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591880725045</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,20 +375,50 @@
     <MESSAGE value="Create models-migrations-controllers MER" />
     <MESSAGE value="Migrations MER_COMPLETE_1.0" />
     <MESSAGE value="Implementando Auth(ui),login, register forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementando Auth(ui),login, register forms" />
+    <MESSAGE value="Probando auth_GUI" />
+    <MESSAGE value="template vista laravel y Registrarevento" />
+    <MESSAGE value="Update user" />
+    <MESSAGE value="Cambios en api Route service provider" />
+    <MESSAGE value="Caso de uso: Agregar Evento" />
+    <MESSAGE value="Vista Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vista Home" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590723058311">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590723058311" />
+    <state x="539" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591801584139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="539" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1591801584139" />
+    <state x="479" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591800910673">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="171" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591800910673" />
+    <state x="479" y="179" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591900463726">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="179" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591900463726" />
     <state x="521" y="321" key="ComposerInitDialogKey" timestamp="1590732227455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="521" y="321" key="ComposerInitDialogKey/0.0.1536.824@0.0.1536.824" timestamp="1590732227455" />
+    <state x="529" y="179" key="FileChooserDialogImpl" timestamp="1591908011058">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="529" y="179" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591908011058" />
+    <state x="584" y="348" key="NewPhpFileDialog" timestamp="1591741905944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="348" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1591741905944" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590726097988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1590726097988" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1591817150727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591817150727" />
   </component>
 </project>
