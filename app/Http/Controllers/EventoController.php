@@ -16,15 +16,16 @@ class EventoController extends Controller
      */
     public function index()
     {
+        //$response = Http::get('http://127.0.0.1:8000/events');
 
-        $client = new \GuzzleHttp\Client();
+        $response = Http::get('http://127.0.0.1:8080/api/events');
 
-        $request = $client->get('http://127.0.0.1:8000/events');
+// Get the response body
+      //  $response->body();
+         $events = $response->json();
+        //dd($jsonData);
 
-        $response = $request->getBody();
-        dd($response);
-
-        return view ('events');
+        return view ('events',compact('events'));
     }
 
 

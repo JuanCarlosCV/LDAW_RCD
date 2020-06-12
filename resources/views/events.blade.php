@@ -71,14 +71,14 @@
     <tbody>
     @foreach($events as $event)
         <tr>
-            <td>{{$event->id_evento}}</td>
-            <td>{{$event->nombre}} </td>
-            <td>{{$event->descripcion}}</td>
-            <td>{{$event->siglas}}</td>
-            <td>{{$event->capacidad}}</td>
-            <td>{{$event->fecha}}</td>
+            <td>{{$event['id_evento']}}</td>
+            <td>{{$event['nombre']}} </td>
+            <td>{{$event['descripcion']}}</td>
+            <td>{{$event['siglas']}}</td>
+            <td>{{$event['capacidad']}}</td>
+            <td>{{$event['fecha']}}</td>
             <td>
-                <a href="" class="btn btn-primary"data-toggle="modal"  data-target="#myModaleditar{{ $event->id_evento }}">Edit</a>
+                <a href="" class="btn btn-primary"data-toggle="modal"  data-target="#myModaleditar{{ $event['id_evento'] }}">Edit</a>
             </td>
             <td>
                 <form action="" method="post">
@@ -88,7 +88,7 @@
                 </form>
             </td>
         </tr>
-        <div class="modal fade" id="myModaleditar{{ $event->id_evento }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="myModaleditar{{ $event['id_evento'] }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -103,24 +103,24 @@
                             @csrf
                             <div class="form-group">
                                 <label for="first_name">Nombre:</label>
-                                <input type="text" class="form-control" name="nombre" value="{{ $event->nombre }}" required/>
+                                <input type="text" class="form-control" name="nombre" value="{{ $event['nombre'] }}" required/>
                             </div>
                             <div class="form-group">
                                 <label for="last_name">Descripcion:</label>
-                                <input type="text" class="form-control" name="descripcion" value="{{ $event->descripcion }}" required/>
+                                <input type="text" class="form-control" name="descripcion" value="{{ $event['descripcion'] }}" required/>
                             </div>
 
                             <div class="form-group">
                                 <label for="email">Siglas:</label>
-                                <input type="text" class="form-control" name="siglas" value="{{ $event->siglas }}"required/>
+                                <input type="text" class="form-control" name="siglas" value="{{ $event['siglas'] }}"required/>
                             </div>
                             <div class="form-group">
                                 <label for="city">Capacidad:</label>
-                                <input type="number" class="form-control" name="capacidad" value="{{ $event->capacidad }}"required/>
+                                <input type="number" class="form-control" name="capacidad" value="{{ $event['capacidad'] }}"required/>
                             </div>
                             <div class="form-group">
                                 <label for="country">Fecha:</label>
-                                <input type="date" class="form-control" name="fecha" value="{{ $event->fecha }}"required/>
+                                <input type="date" class="form-control" name="fecha" value="{{ $event['fecha'] }}"required/>
                             </div>
                             <button type="submit" class="btn btn-primary">Guardar Cambios</button>
                         </form>
