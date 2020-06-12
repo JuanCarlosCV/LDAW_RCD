@@ -41,15 +41,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8e8f915-b10c-4bcf-b903-681499b52e6f" name="Default Changelist" comment="update_laravel">
-      <change beforePath="$PROJECT_DIR$/.idea/LDAW_RCD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LDAW_RCD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EventoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EventoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/events.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/events.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +259,7 @@
       <workItem from="1591976746489" duration="177000" />
       <workItem from="1591976931947" duration="234000" />
       <workItem from="1591977174821" duration="221000" />
-      <workItem from="1591977404288" duration="1509000" />
+      <workItem from="1591977404288" duration="2360000" />
     </task>
     <task id="LOCAL-00001" summary="update_laravel">
       <created>1590722917883</created>
@@ -374,7 +366,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591937601968</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Vista eventos:Api">
+      <created>1591979143002</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591979143002</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Update laravel 7">
+      <created>1591979165408</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591979165408</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +416,9 @@
     <MESSAGE value="cambios internos ldaw" />
     <MESSAGE value="cambios userstory editarevento" />
     <MESSAGE value="update json" />
-    <option name="LAST_COMMIT_MESSAGE" value="update json" />
+    <MESSAGE value="Vista eventos:Api" />
+    <MESSAGE value="Update laravel 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update laravel 7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590723058311">
