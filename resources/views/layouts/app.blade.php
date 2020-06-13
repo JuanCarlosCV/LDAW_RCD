@@ -53,8 +53,9 @@
                 </div>
             </form>
 
-            <!-- Right navbar links -->
-            @include('sweet::alert')
+            <!-- Right navbar links 
+            @include('sweet::alert') links -->-->
+         
         </nav>
         <!-- /.navbar -->
 
@@ -147,8 +148,8 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="/eventos"
-                               class="{{ Request::path() === '/eventos' ? 'nav-link active' : 'nav-link' }}">
+                            <a href="/ubicacion"
+                               class="{{ Request::path() === '/ubicacion' ? 'nav-link active' : 'nav-link' }}">
                                 <i class="nav-icon fas fa-users"></i>
                                 <p>
                                     Ubicaciones

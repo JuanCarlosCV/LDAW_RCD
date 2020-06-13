@@ -18,5 +18,9 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/usuarios', 'UserController@index');
 
+Route::get('/ubicacion', function(){
+    return view('ubicacion');
+});
+
 Route::Resource('eventos', 'EventoController');//llamar vista eventos
 //Route::get('/eventos/create', 'EventoController@create');

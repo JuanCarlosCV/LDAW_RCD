@@ -148,7 +148,6 @@
 		"../../build/scss/plugins/_icheck-bootstrap.scss",
 		"../../build/scss/plugins/_mapael.scss",
 		"../../build/scss/plugins/_jqvmap.scss",
-		"../../build/scss/plugins/_sweetalert2.scss",
 		"../../build/scss/plugins/_toastr.scss",
 		"../../build/scss/plugins/_pace.scss",
 		"../../build/scss/plugins/_bootstrap-switch.scss",
